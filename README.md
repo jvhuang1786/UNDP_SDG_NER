@@ -133,19 +133,19 @@ def clean_text(df):
 
 LDA TOPIC Distribution 17 SDGs
 
-<img src=https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture0.PNG" width="500"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture0.PNG" width="500"></img>
 
 Unigram Word Count
 
-<img src=https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture1.PNG" width="300"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture1.PNG" width="300"></img>
 
 Bigram Word Count
 
-<img src=https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture2.PNG" width="300"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture2.PNG" width="300"></img>
 
 Trigram Word Count
 
-<img src=https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture3.PNG" width="300"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture3.PNG" width="300"></img>
 
 
 * [KMeans Clustering WordCloud](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Twitter/EDA/Kmeans%20Clustering%20of%20Topics.ipynb)
