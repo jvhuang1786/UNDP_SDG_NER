@@ -54,12 +54,12 @@ Steps of Collected the Data:
 
 Tweet Distribution collection of the SDGs
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-4.png" width="480"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-4.png" width="550"></img>
 
 
 **Text Preprocessing:**
 
-*TFIDF
+  **TFIDF**
 
 ```python
 
@@ -90,7 +90,7 @@ def clean_tweet(df):
 ```
 
 
-*Word2Vec
+  **Word2Vec**
 
 ```python
 
@@ -112,7 +112,7 @@ def clean_text(df):
 
 ```
 
-*BERT
+  **BERT**
 
 ```python
 
