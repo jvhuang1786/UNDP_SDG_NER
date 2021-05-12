@@ -11,17 +11,17 @@
 
 <tr>
   <td>Data Collection</td>
-  <td>pandas, matplotlib, numpy regex</td>
+  <td>Tweepy, Pygoogle, GPT2, GPTNEO</td>
 </tr>
 
 <tr>
   <td>Data Visualization</td>
-  <td>plotly, seaborn, matplotlib</td>
+  <td>PyCaret LDA, WordCloud</td>
 </tr>
 
 <tr>
   <td>Modeling</td>
-  <td>catboost, randomforest from sklearn, xgboost, shap</td>
+  <td>Sklearn Logistic Regression, Word2Vec, Hugging Face, Pytorch</td>
 </tr>
 
 </table>
