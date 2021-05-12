@@ -1,4 +1,4 @@
-# UNDP WG 3 SDG Classificaion 
+# UNDP WG 3 SDG Classification
 <img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/original-15.jpg" width="1000"></img>
 
 ## Introduction
