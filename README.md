@@ -49,8 +49,14 @@ Steps of Collected the Data:
 
 **Text Preprocessing:**
 
+**Data Distribution**
+
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-4.png" width="480"></img>
+
 *TFIDF
+
 *Word2Vec
+
 *BERT
 
 **LDA and Word Cloud:**
@@ -70,6 +76,10 @@ Steps of Collected the Data:
 * [Note Book](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Models/Word2vec%20Log%20Reg/word2vec%20Logreg.ipynb)
 
 **BERT Transfer Learning with Hugging Face:**
+
+**Token Distribution**
+
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-8.png" width="480"></img>
 
 * [Note Book](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Models/BERT%20Classification/SDG%20BERT%20Classification.ipynb)
 
