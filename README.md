@@ -35,9 +35,11 @@ Steps of Collected the Data:
    * GPT2/Neo/Xlmnet Sentence Generation using Hugging Face 
       * [Code](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Sentence_Generation/GPT%20Sentence%20Generation.ipynb)
       * [Data](https://github.com/jvhuang1786/UNDP_SDG_NER/tree/main/Sentence_Generation)
+      
    * Twitter API using Tweepy to collect Tweets #/@ using Keyword List from Ontology 
       * [Code](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Twitter/undpkeywordstwitter.py)
       * [Data](https://github.com/jvhuang1786/UNDP_SDG_NER/tree/main/Twitter/Tweets)
+      
    * Google News Scrape using pygoogle collected news on 17 SDGs 2018-2020
       * [Code](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/SDGGOGNEWSSCRAPER/SDG_news%20Scraper.ipynb)
       * [Data](https://github.com/jvhuang1786/UNDP_SDG_NER/tree/main/SDGGOGNEWSSCRAPER)
@@ -47,17 +49,83 @@ Steps of Collected the Data:
 
 ## Data Visualization and Findings
 
-**Text Preprocessing:**
 
 **Data Distribution**
 
+Tweet Distribution collection of the SDGs
+
 <img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-4.png" width="480"></img>
+
+
+**Text Preprocessing:**
 
 *TFIDF
 
+```python
+
+def clean_tweet(df):
+    """function first creates a copy. Then cleans up text for http, @, ampersands, and clears for punctuations.  Then lemmatizes, tokenizes.
+    """
+    import re 
+    
+    df = df.copy()
+    
+    #decontract
+    df = df.apply(decontracted)
+    #clean up https,@, &amp
+    df = df.apply(lambda x: re.sub(r"http\S+","", x.lower()),1)\
+    .apply(lambda i: " ".join(filter(lambda x: x[0]!="@", i.split())),1)\
+    .apply(lambda x: re.sub(r"&amp", "",x),1)\
+    .apply(lambda x: re.sub(r"&amp;","",x))\
+    .apply(lambda x: re.sub(r'[_"\-;%()|+&=*%.,!?:#$@\[\]/]', ' ', x),1)
+    
+    #lemmatize
+    df = df.apply(lambda x: lemm.lemmatize(x))
+    
+    #tokenize
+    df = df.apply(lambda x: tknzr.tokenize(x))
+    df = df.apply(lambda x: ' '.join(x))
+    return df
+
+```
+
+
 *Word2Vec
 
+```python
+
+def clean_text(df):
+    import re
+    df = df.copy().reset_index(drop = True)
+     
+    #decontract
+    df = df.apply(decontracted)
+    
+    df = df.apply(lambda x: re.sub(r"http\S+", "", x), 1)\
+.apply(lambda i: " ".join(filter(lambda x:x[0]!="@", i.split())), 1)\
+.apply(lambda x: re.sub(r"&amp", "",x),1)\
+.apply(lambda x: re.sub(r"&amp;", "",x),1)\
+.apply(lambda x: str(x).lower()).replace('\\', '').replace('_', ' ')\
+.apply(lambda x: re.sub(r'[_"\-;%()|+&=*%.,!?:#$@\[\]/]', ' ', x),1)
+
+    return df
+
+```
+
 *BERT
+
+```python
+
+def clean_text(df):
+    import re
+    df = df.copy().reset_index(drop = True)
+    df = df.apply(lambda x: re.sub(r"http\S+", "", x), 1)\
+.apply(lambda i: " ".join(filter(lambda x:x[0]!="@", i.split())), 1)\
+.apply(lambda x: re.sub(r"&amp", "",x),1)\
+.apply(lambda x: re.sub(r"&amp;", "",x),1)
+    return df
+
+```
 
 **LDA and Word Cloud:**
 
