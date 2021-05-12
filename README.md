@@ -47,22 +47,27 @@ Steps of Collected the Data:
 
 ## Data Visualization and Findings
 
+**Text Preprocessing:**
+
 **LDA and Word Cloud:**
 
      
      
 ## Modeling 
 
-**Log Reg TFIDF**
+**Log Reg TFIDF:**
 
+* [Note Book](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Models/Log%20Reg%20Model/Log%20Reg%20Classification.ipynb)
 
-**Log Reg Word2Vec**
+**Log Reg Word2Vec:**
 
-**BERT Transfer Learning with Hugging Face**
+* [Note Book](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Models/Word2vec%20Log%20Reg/word2vec%20Logreg.ipynb)
 
+**BERT Transfer Learning with Hugging Face:**
 
+* [Note Book](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Models/BERT%20Classification/SDG%20BERT%20Classification.ipynb)
 
-
+## Results
 
 ## Author
 
