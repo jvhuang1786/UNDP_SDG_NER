@@ -137,10 +137,12 @@ Kmeans Word Cloud 17 SDGS
 <img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown.png" width="480"></img>
 
 Industry and Infrastructure SDG 9 WordCloud
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-2.png" width="480"></img>
+
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-2.png" width="300"></img>
 
 Responsible Consumption and Production SDG 12 WordCloud
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-3.png" width="480"></img>
+
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-3.png" width="300"></img>
 
 
 ## Modeling 
