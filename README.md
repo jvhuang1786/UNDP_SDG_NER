@@ -182,10 +182,24 @@ BERT SDG Confusion Matrix
 <img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-5.png" width="600"></img>
 
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-6.png" width="300"></img>
+Tweet:
 
+    You have to agree with The on this, I DON'T agree on EVERYTHING the
+    GOP has to say much ANYMORE. But I have to admit that condemning China
+    for what they're currently going would've been a lot BETTER than what
+    he said that day.
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-7.png" width="300"></img>
+    True SDG: 14
+    
+Prediction:
+
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-6.png" width="400"></img>
+
+Tweet:
+
+Prediction:
+
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-7.png" width="400"></img>
 
 
 
