@@ -133,26 +133,26 @@ def clean_text(df):
 
 LDA TOPIC Distribution 17 SDGs
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture0.PNG" width="500"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture0.PNG" width="1000"></img>
 
 Unigram Word Count
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture1.PNG" width="300"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture1.PNG" width="1000"></img>
 
 Bigram Word Count
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture2.PNG" width="300"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture2.PNG" width="1000"></img>
 
 Trigram Word Count
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture3.PNG" width="300"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture3.PNG" width="1000"></img>
 
 
 * [KMeans Clustering WordCloud](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Twitter/EDA/Kmeans%20Clustering%20of%20Topics.ipynb)
 
 Kmeans Word Cloud 17 SDGS
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown.png" width="400"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown.png" width="600"></img>
 
 Industry and Infrastructure SDG 9 WordCloud
 
@@ -177,7 +177,7 @@ Responsible Consumption and Production SDG 12 WordCloud
 
 **Token Distribution** - 100 Tokens used for Tweet BERT model with Case since HI!!! and hi. could mean different things. 
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-8.png" width="480"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-8.png" width="600"></img>
 
 * [Note Book](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Models/BERT%20Classification/SDG%20BERT%20Classification.ipynb)
 
