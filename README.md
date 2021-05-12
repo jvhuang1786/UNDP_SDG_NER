@@ -133,7 +133,7 @@ def clean_text(df):
 
 LDA TOPIC Distribution 17 SDGs
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture0.PNG" width="1000"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Capture0.PNG" width="2000"></img>
 
 Unigram Word Count
 
