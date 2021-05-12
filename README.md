@@ -49,10 +49,16 @@ Steps of Collected the Data:
 
 **Text Preprocessing:**
 
+*TFIDF
+*Word2Vec
+*BERT
+
 **LDA and Word Cloud:**
 
-     
-     
+* [LDA PyCaret Model](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Twitter/EDA/Cluster_Topic_exploration.ipynb)
+
+* [KMeans Clustering WordCloud](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Twitter/EDA/Kmeans%20Clustering%20of%20Topics.ipynb)
+
 ## Modeling 
 
 **Log Reg TFIDF:**
@@ -69,9 +75,13 @@ Steps of Collected the Data:
 
 ## Results
 
+**Log Reg TFIDF:**
+
+**Log Reg Word2Vec:**
+
+**BERT Transfer Learning with Hugging Face:**
+
 ## Author
-
-
 * Justin Huang
   Into anime, finance computer vision, and NLP.
   [GitHub: Jvhuang1786](https://jvhuang1786.github.io/)
