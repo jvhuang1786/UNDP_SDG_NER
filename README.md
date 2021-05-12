@@ -65,6 +65,14 @@ Steps of Collected the Data:
 
 * [KMeans Clustering WordCloud](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Twitter/EDA/Kmeans%20Clustering%20of%20Topics.ipynb)
 
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown.png" width="480"></img>
+
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-2.png" width="480"></img>
+
+
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-3.png" width="480"></img>
+
+
 ## Modeling 
 
 **Log Reg TFIDF:**
@@ -96,6 +104,12 @@ Steps of Collected the Data:
 **BERT Transfer Learning with Hugging Face:**
 
 <img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-5.png" width="480"></img>
+
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-6.png" width="480"></img>
+
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-7.png" width="480"></img>
+
+
 
 ## Author
 * Justin Huang
