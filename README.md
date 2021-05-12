@@ -32,15 +32,15 @@ This project in partnershp with SDG AI Labs aims to use supervised learning mode
 
 Steps of Collected the Data: 
 
-     * GPT2/Neo/Xlmnet Sentence Generation using Hugging Face 
-       * [Code](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Sentence_Generation/GPT%20Sentence%20Generation.ipynb)
-       * [Data](https://github.com/jvhuang1786/UNDP_SDG_NER/tree/main/Sentence_Generation)
-     * Twitter API using Tweepy to collect Tweets #/@ using Keyword List from Ontology 
-       * [Code](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Twitter/undpkeywordstwitter.py)
-       * [Data](https://github.com/jvhuang1786/UNDP_SDG_NER/tree/main/Twitter/Tweets)
-     * Google News Scrape using pygoogle collected news on 17 SDGs 2018-2020
-       * [Code](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/SDGGOGNEWSSCRAPER/SDG_news%20Scraper.ipynb)
-       * [Data](https://github.com/jvhuang1786/UNDP_SDG_NER/tree/main/SDGGOGNEWSSCRAPER)
+   * GPT2/Neo/Xlmnet Sentence Generation using Hugging Face 
+      * [Code](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Sentence_Generation/GPT%20Sentence%20Generation.ipynb)
+      * [Data](https://github.com/jvhuang1786/UNDP_SDG_NER/tree/main/Sentence_Generation)
+   * Twitter API using Tweepy to collect Tweets #/@ using Keyword List from Ontology 
+      * [Code](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/Twitter/undpkeywordstwitter.py)
+      * [Data](https://github.com/jvhuang1786/UNDP_SDG_NER/tree/main/Twitter/Tweets)
+   * Google News Scrape using pygoogle collected news on 17 SDGs 2018-2020
+      * [Code](https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/SDGGOGNEWSSCRAPER/SDG_news%20Scraper.ipynb)
+      * [Data](https://github.com/jvhuang1786/UNDP_SDG_NER/tree/main/SDGGOGNEWSSCRAPER)
   
 
 
