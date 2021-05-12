@@ -76,13 +76,16 @@ Steps of Collected the Data:
 ## Results
 
 **Log Reg TFIDF:**
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Screen%20Shot%202021-05-11%20at%207.06.20%20PM.png" width="300"></img>
+
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Screen%20Shot%202021-05-11%20at%207.06.20%20PM.png" width="480"></img>
 
 **Log Reg Word2Vec:**
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Screen%20Shot%202021-05-11%20at%207.06.39%20PM.png" width="300"></img>
+
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Screen%20Shot%202021-05-11%20at%207.06.39%20PM.png" width="480"></img>
 
 **BERT Transfer Learning with Hugging Face:**
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-5.png" width="300"></img>
+
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-5.png" width="480"></img>
 
 ## Author
 * Justin Huang
