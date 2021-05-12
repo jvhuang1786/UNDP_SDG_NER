@@ -54,7 +54,7 @@ Steps of Collected the Data:
 
 Tweet Distribution collection of the SDGs
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-4.png" width="550"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-4.png" width="650"></img>
 
 
 **Text Preprocessing:**
@@ -168,18 +168,18 @@ Responsible Consumption and Production SDG 12 WordCloud
 
 **Log Reg TFIDF:**
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Screen%20Shot%202021-05-11%20at%207.06.20%20PM.png" width="200"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Screen%20Shot%202021-05-11%20at%207.06.20%20PM.png" width="300"></img>
 
 **Log Reg Word2Vec:**
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Screen%20Shot%202021-05-11%20at%207.06.39%20PM.png" width="200"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Screen%20Shot%202021-05-11%20at%207.06.39%20PM.png" width="300"></img>
 
 **BERT Transfer Learning with Hugging Face:**
 
 BERT SDG Confusion Matrix
 
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-5.png" width="600"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-5.png" width="650"></img>
 
 
 Tweet:
@@ -191,15 +191,23 @@ Tweet:
 
     True SDG: 14
     
-Prediction:
+Prediction Proba:
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-6.png" width="400"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-6.png" width="450"></img>
 
 Tweet:
 
-Prediction:
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-7.png" width="400"></img>
+    Yeah: one might even suggest that that the full policy consequences of
+    moral panics about wokeness or cancel culture in elite private spaces
+    like Oberlin or Harvard are visited upon public higher ed in red state
+    institutions
+
+    True SDG: 0
+
+Prediction Proba:
+
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-7.png" width="450"></img>
 
 
 
