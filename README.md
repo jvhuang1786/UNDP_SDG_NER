@@ -168,24 +168,24 @@ Responsible Consumption and Production SDG 12 WordCloud
 
 **Log Reg TFIDF:**
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Screen%20Shot%202021-05-11%20at%207.06.20%20PM.png" width="480"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Screen%20Shot%202021-05-11%20at%207.06.20%20PM.png" width="200"></img>
 
 **Log Reg Word2Vec:**
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Screen%20Shot%202021-05-11%20at%207.06.39%20PM.png" width="480"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Screen%20Shot%202021-05-11%20at%207.06.39%20PM.png" width="200"></img>
 
 **BERT Transfer Learning with Hugging Face:**
 
 BERT SDG Confusion Matrix
 
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-5.png" width="480"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-5.png" width="600"></img>
 
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-6.png" width="480"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-6.png" width="300"></img>
 
 
-<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-7.png" width="480"></img>
+<img src="https://github.com/jvhuang1786/UNDP_SDG_NER/blob/main/images/Unknown-7.png" width="300"></img>
 
 
 
