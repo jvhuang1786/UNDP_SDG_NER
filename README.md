@@ -3,10 +3,9 @@
 
 ## Introduction
 
-This project in partnershp with SDG AI Labs aims to use supervised learning models to classify text/articles into the 17 SDGs. 
+This project in partnershp with [SDG AI LAB](https://sdgailab.org/) aims to use supervised learning models to classify text/articles into the 17 SDGs. 
 
 ### Libraries Used
-
 
 <table>
 
